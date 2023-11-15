@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <main>
+      <h2>IP情報</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>ip</th>
+            <td id="ip"></td>
+          </tr>
+          <tr>
+            <th>hostname</th>
+            <td id="hostname"></td>
+          </tr>
+          <tr>
+            <th>city</th>
+            <td id="city"></td>
+          </tr>
+          <tr>
+            <th>region</th>
+            <td id="region"></td>
+          </tr>
+          <tr>
+            <th>country</th>
+            <td id="country"></td>
+          </tr>
+          <tr>
+            <th>loc</th>
+            <td id="loc"></td>
+          </tr>
+          <tr>
+            <th>org</th>
+            <td id="org"></td>
+          </tr>
+          <tr>
+            <th>postal</th>
+            <td id="postal"></td>
+          </tr>
+          <tr>
+            <th>timezone</th>
+            <td id="timezone"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>API レスポンス</h2>
+      <pre id="json"></pre>
+
+      このページは
+      <a href="https://ipinfo.io/">ipinfo.io</a>
+      のFreeAPIを使用してデータを取得しています。
+    </main>
+  </body>
+</html>
